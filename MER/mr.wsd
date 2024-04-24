@@ -1,0 +1,13 @@
+@startuml MR
+
+class nota{
+    -int: id
+    -string: nota
+}
+
+class nota2{
+    -int: id
+    -string: nota
+}
+
+nota "1"--"*" nota2: contiene
